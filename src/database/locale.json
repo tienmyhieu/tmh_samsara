@@ -1,0 +1,9 @@
+{
+  "vi": { "active": "1", "name": "vi-VN", "native_name": "Tiếng Việt", "region": "asia", "translation": "bjz13fdk" },
+  "ja": { "active": "1", "name": "ja-JP", "native_name": "日本語", "region": "asia", "translation": "npnneizp" },
+  "zh-hans": { "active": "1", "name": "zh-Hans", "native_name": "中文 简体", "region": "asia", "translation": "fm5r1isz" },
+  "zh-hant": { "active": "1", "name": "zh-Hant", "native_name": "中文 繁體", "region": "asia", "translation": "gvwklue3" },
+  "fr": { "active": "1", "name": "fr-FR", "native_name": "Français", "region": "europe", "translation": "bz93sqlw" },
+  "en": { "active": "1", "name": "en-GB", "native_name": "English", "region": "europe", "translation": "hisnjifi" },
+  "de": { "active": "1", "name": "de-DE", "native_name": "Deutsch", "region": "europe", "translation": "ro8a92yv" }
+}
