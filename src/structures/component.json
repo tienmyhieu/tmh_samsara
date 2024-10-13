@@ -1,0 +1,15 @@
+{
+  "pa41y58h": { "active": "1", "name": "siblings", "translation": "", "type": "siblings" },
+  "c1ulvmly": { "active": "1", "name": "ancestors", "translation": "", "type": "ancestors" },
+  "jg5910yr": { "active": "1", "name": "title", "translation": "", "type": "title" },
+  "ic1de449": { "active": "1", "name": "topic", "translation": "", "type": "topic" },
+  "kc0pxnx5": { "active": "1", "name": "entity_list", "translation": "", "type": "entity_list" },
+  "w0339xcb": { "active": "1", "name": "image_group_list", "translation": "", "type": "image_group_list" },
+  "wkboi0gm": { "active": "1", "name": "citation_list", "translation": "mf0m8bh5", "type": "citation_list" },
+  "dhnfhdco": { "active": "1", "name": "creative_commons", "translation": "", "type": "creative_commons" },
+  "i1dnljpv": { "active": "1", "name": "key_value_list", "translation": "", "type": "key_value_list" },
+  "cuvfju0t": { "active": "1", "name": "upload_group_list", "translation": "", "type": "upload_group_list" },
+  "gleswjbb": { "active": "1", "name": "quote_list", "translation": "", "type": "quote_list" },
+  "a1bexgnz": { "active": "1", "name": "text_group", "translation": "", "type": "quote_list" },
+  "pjq3qtqa": { "active": "1", "name": "default_title", "translation": "", "type": "default_title" }
+}

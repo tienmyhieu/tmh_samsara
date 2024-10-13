@@ -1,0 +1,47 @@
+<?php
+
+namespace lib\HtmlComponent;
+
+use lib\TmhElementFactory;
+
+require_once('TmhHtmlComponent.php');
+require_once('TmhAncestorsHtmlComponent.php');
+require_once('TmhCitationListHtmlComponent.php');
+require_once('TmhCreativeCommonsHtmlComponent.php');
+require_once('TmhEntityListHtmlComponent.php');
+require_once('TmhImageGroupListHtmlComponent.php');
+require_once('TmhKeyValueListHtmlComponent.php');
+require_once('TmhQuoteListHtmlComponent.php');
+require_once('TmhSiblingsHtmlComponent.php');
+require_once('TmhTitleHtmlComponent.php');
+require_once('TmhTopicHtmlComponent.php');
+require_once('TmhUploadGroupHtmlComponent.php');
+require_once('TmhUploadGroupListHtmlComponent.php');
+
+class TmhHtmlComponentFactory
+{
+    private TmhElementFactory $elementFactory;
+
+    public function __construct(TmhElementFactory $elementFactory)
+    {
+        $this->elementFactory = $elementFactory;
+    }
+
+    public function create(string $type): TmhHtmlComponent
+    {
+        return match($type) {
+            'ancestors' => new TmhAncestorsHtmlComponent($this->elementFactory),
+            'citation_list' => new TmhCitationListHtmlComponent($this->elementFactory),
+            'creative_commons' => new TmhCreativeCommonsHtmlComponent($this->elementFactory),
+            'entity_list' => new TmhEntityListHtmlComponent($this->elementFactory),
+            'image_group_list' => new TmhImageGroupListHtmlComponent($this->elementFactory),
+            'key_value_list' => new TmhKeyValueListHtmlComponent($this->elementFactory),
+            'quote_list' => new TmhQuoteListHtmlComponent($this->elementFactory),
+            'siblings' => new TmhSiblingsHtmlComponent($this->elementFactory),
+            'topic' => new TmhTopicHtmlComponent($this->elementFactory),
+            'upload_group' => new TmhUploadGroupHtmlComponent($this->elementFactory),
+            'upload_group_list' => new TmhUploadGroupListHtmlComponent($this->elementFactory),
+            'default_title', 'title' => new TmhTitleHtmlComponent($this->elementFactory)
+        };
+    }
+}
